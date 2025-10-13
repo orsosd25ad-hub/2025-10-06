@@ -11,7 +11,7 @@ p {
 }
 
 img{
-    max-width: 50%;
+    max-width: 70%;
 }
 .container {
     width: 700px;
@@ -22,3 +22,15 @@ img{
     border-radius: 10px
 }
 
+.content {
+    width: 500px;
+    float: left;
+}
+
+.sidebar {
+    width: 200px;
+    float: right;
+}
+.Clear {
+    clear: both;
+}
