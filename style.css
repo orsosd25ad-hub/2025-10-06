@@ -36,10 +36,72 @@ img{
 }
 
 .topnav {
-    background-color: #111
-    overflow: hidden;
+  background-color: #333;
+  overflow: hidden;
 }
 
 .topnav a {
-
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+.topnav a:hover {
+    background-color :#006600;
+    color: black;
+}
+
+.topnav a.active {
+    background-color :#04AA6D
+    color: white;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #f1f1f1;
+  position: right;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none
+}
+
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sidebar :hover:not(.active){
+    background-color: #555
+    color: white;
+}
+   
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.sidebar {
+    width: 100%;
+    height: auto;
+    position: right
+}
+
+.sidebar a {float: left;}
+  div.content {margin-left: 0;
+  }
+
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
