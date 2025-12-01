@@ -4,6 +4,7 @@ body {
 
 h1 {
     color:#12cd56;
+    ;
 }
 
 p {
@@ -22,15 +23,7 @@ img{
     border-radius: 10px
 }
 
-.content {
-    width: 500px;
-    float: left;
-}
 
-.sidebar {
-    width: 200px;
-    float: right;
-}
 .Clear {
     clear: both;
 }
@@ -59,49 +52,32 @@ img{
     color: white;
 }
 
-.sidebar {
-  margin: 0;
+.sidebar ul {
+  list-style-type: none;
   padding: 0;
-  width: 100px;
-  background-color: #f1f1f1;
-  position: right;
-  height: 100%;
-  overflow: hidden;
+  width: 200px;
+  background-color:#333333;
 }
 
-.sidebar a {
+.sidebar li {
   display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
-.sidebar a.active {
-    background-color: #04AA6D;
-    color: white;
+.sidebar li:hover {
+  background-color: #555555;
+  color: white
 }
 
-.sidebar :hover:not(.active){
-    background-color: #555
-    color: white;
-}
-   
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-.sidebar {
-    width: 100%;
-    height: auto;
-    position: right
-}
-
-.sidebar a {float: left;}
-  div.content {margin-left: 0;
+  .content {
+    width: 500px;
+    float: left;
   }
 
-  .sidebar a {
-    text-align: center;
-    float: none;
+  .sidebar {
+    width: 200px;
+    float: right;
   }
+  
